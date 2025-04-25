@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-base-300 text-neutral-content items-center p-4">
+    <footer className="footer sm:footer-horizontal bg-base-300 text-base-content items-center p-4">
       <aside className="grid-flow-col items-center">
         <svg
           width="36"
@@ -24,9 +24,8 @@ const Footer = () => {
         </p>
       </aside>
 
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-base-content">
         <a
-          className="text-gray-300"
           href="https://github.com/opomp1"
           rel="noopener noreferrer"
           target="_blank"
@@ -34,7 +33,6 @@ const Footer = () => {
           <FaGithub size={30} className="" />
         </a>
         <a
-          className="text-gray-300"
           href="https://www.linkedin.com/in/tirawat-p"
           rel="noopener noreferrer"
           target="_blank"
@@ -42,7 +40,6 @@ const Footer = () => {
           <FaLinkedin size={30} className="" />
         </a>
         <a
-          className="text-gray-300"
           href="https://drive.google.com/file/d/1bjkUCL1pFCIjnKo5oBYs76FMobU59Hxp/view?usp=sharing"
           rel="noopener noreferrer"
           target="_blank"
