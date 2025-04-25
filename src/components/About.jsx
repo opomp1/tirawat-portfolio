@@ -8,7 +8,7 @@ const About = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.25 }}
       name="About"
-      className="w-full min-h-[50svh] p-8 bg-[#38445D] text-white flex items-center"
+      className="w-full min-h-[50svh] p-8 flex items-center"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -27,20 +27,19 @@ const About = () => {
           </div>
           <div>
             <p>
-              Enthusiastic Junior Developer and recent graduate of Generation’s
-              Junior Software Developer Bootcamp, skilled in crafting solutions
-              with HTML, CSS, JavaScript, React, and Node.js. Proficient in
-              agile and SCRUM methodologies, I tackle challenges as
-              opportunities for continuous learning, demonstrating a perpetual
-              readiness to enhance my skills. During the Bootcamp, I
-              successfully collaborated on a project implementing a CRUD
-              feature, showcasing my ability to deliver tangible results. Beyond
-              technical proficiency, I bring an unwavering commitment to
-              creating impactful solutions. With a background in the culinary
-              field, I offer a unique blend of adaptability and teamwork skills
-              to complement my software development expertise. Excited to
-              contribute my skills and passion for innovation to a dynamic
-              development team.
+              I’m a Junior Full Stack Developer with a passion for building
+              clean, responsive, and functional web apps. I recently completed
+              the Generation Australia Junior Software Developer Bootcamp, where
+              I collaborated on full-stack projects in Agile/SCRUM teams, using
+              tools like React, Node.js, and MongoDB. I see every challenge as a
+              chance to grow, and I bring a growth mindset, sharp attention to
+              detail, and strong time management to every project. My background
+              in the culinary industry has shaped my ability to adapt quickly,
+              work collaboratively, and stay calm under pressure. Whether it’s
+              designing sleek interfaces with CSS or building secure APIs with
+              JWT and Node.js, I’m always ready to learn and contribute. I’m
+              currently looking for opportunities to join a passionate dev team
+              where I can continue to grow and make a real impact.
             </p>
           </div>
         </div>

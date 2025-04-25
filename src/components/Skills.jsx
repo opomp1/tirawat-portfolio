@@ -1,13 +1,17 @@
 import { motion } from "framer-motion";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+import HTML from "../assets/skills/html.png";
+import CSS from "../assets/skills/css.png";
+import JavaScript from "../assets/skills/javascript.png";
+import TypeScript from "../assets/skills/typescript.webp";
+import ReactImg from "../assets/skills/react.png";
+import Node from "../assets/skills/node.png";
+import GitHub from "../assets/skills/github-black.png";
+import Tailwind from "../assets/skills/tailwind.png";
+import Mongo from "../assets/skills/mongo.png";
+import Stripe from "../assets/skills/stripe.png";
+import SocketIo from "../assets/skills/socket-io.png";
+import Cloudinary from "../assets/skills/cloudinary.png";
 
 const Skills = () => {
   return (
@@ -42,6 +46,10 @@ const Skills = () => {
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-lg hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={TypeScript} alt="HTML icon" />
+            <p className="my-4">TYPESCRIPT</p>
+          </div>
+          <div className="shadow-lg hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
           </div>
@@ -60,6 +68,18 @@ const Skills = () => {
           <div className="shadow-lg hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
             <p className="my-4">TAILWIND</p>
+          </div>
+          <div className="shadow-lg hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Stripe} alt="HTML icon" />
+            <p className="my-4">STRIPE</p>
+          </div>
+          <div className="shadow-lg hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={SocketIo} alt="HTML icon" />
+            <p className="my-4">SOCKET.IO</p>
+          </div>
+          <div className="shadow-lg hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Cloudinary} alt="HTML icon" />
+            <p className="my-4">CLOUDINARY</p>
           </div>
         </div>
       </div>

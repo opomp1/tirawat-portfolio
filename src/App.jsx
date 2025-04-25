@@ -5,6 +5,9 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Contact from "./components/Contact";
+// import ProjectsVideo from "./components/ProjectsVideo";
+import Certification from "./components/Certification";
+import Footer from "./components/Footer";
 
 function App() {
   const [isdark, setIsdark] = useState(
@@ -20,9 +23,12 @@ function App() {
       <Navbar2 theme={isdark} toggleTheme={setIsdark} />
       <Home />
       <Project />
+      {/* <ProjectsVideo /> */}
       <Skills />
+      <Certification />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }

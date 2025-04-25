@@ -127,7 +127,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 px-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/tirawat-pompakunsawat/"
               rel="noopener noreferrer"
               target="_blank"
@@ -137,7 +137,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] px-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://github.com/opomp1"
               rel="noopener noreferrer"
               target="_blank"
@@ -145,9 +145,9 @@ const Navbar = ({ theme, toggleTheme }) => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] px-4">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] px-4 hover:cursor-pointer">
             <Link
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               to="Contact"
               smooth={true}
               duration={500}
@@ -157,8 +157,8 @@ const Navbar = ({ theme, toggleTheme }) => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] px-4">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/10lK57w5fu_DqltuSdNi1RXiqiBpB97F3/view?usp=drive_link"
+              className="flex justify-between items-center w-full text-white"
+              href="https://drive.google.com/file/d/1bjkUCL1pFCIjnKo5oBYs76FMobU59Hxp/view?usp=sharing"
               rel="noopener noreferrer"
               target="_blank"
             >

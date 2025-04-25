@@ -8,7 +8,7 @@ const Contact = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.25 }}
       name="Contact"
-      className="w-full h-full flex justify-center items-center p-8"
+      className="w-full h-full flex justify-center items-center p-8 "
     >
       <form
         method="POST"
@@ -19,39 +19,39 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-primary">
             Contact
           </p>
-          <p className="text-primary py-4">
+          <p className=" py-4">
             // Submit the form below or shoot me an email -
-            <span className="font-bold"> bamiowen@gmail.com</span>
+            <span className="font-bold"> owentirawat@gmail.com</span>
           </p>
         </div>
 
         <fieldset className="fieldset">
-          <legend className="fieldset-legend">Name</legend>
+          {/* <legend className="fieldset-legend text-white">Name</legend> */}
           <input
             type="text"
-            className="input w-full"
+            className="input w-full placeholder-gray-400"
             placeholder="Name"
             name="name"
           />
         </fieldset>
 
         <fieldset className="fieldset my-4">
-          <legend className="fieldset-legend">Name</legend>
+          {/* <legend className="fieldset-legend text-white">Email</legend> */}
           <input
             type="text"
-            className="input w-full"
-            placeholder="Name"
-            name="name"
+            className="input w-full placeholder-gray-400"
+            placeholder="Email"
+            name="email"
           />
         </fieldset>
 
         <textarea
-          className="textarea w-full"
+          className="textarea w-full placeholder-gray-400"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="btn btn-success my-8 mx-auto =">
+        <button className="btn btn-primary my-8 mx-auto =">
           Let's Collaborate
         </button>
       </form>

@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
+import { MdLiveTv } from "react-icons/md";
+import { SiGithub } from "react-icons/si";
+
 import { data } from "../data/data.js";
+
+import video from "../assets/dog-go-video.mp4";
 
 const Projects = () => {
   const project = data;
@@ -30,18 +35,51 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true, amount: 0.25 }}
-              className="card lg:card-side bg-base-100 shadow-sm transition-all duration-300 hover:scale-105"
+              className="card card-xl  bg-base-200 shadow-md transition-all duration-300 hover:scale-105"
               key={item.id}
             >
               <figure>
-                <img src={item.image} alt="Album" />
+                <img src={item.image} alt="Project" />
               </figure>
+
+              {/* Video features */}
+              {/* <figure className="relative overflow-hidden aspect-video">
+                <img
+                  src={item.image}
+                  alt="Project"
+                  className="w-full h-auto transition-opacity duration-500 absolute top-0 left-0 group-hover:opacity-0"
+                />
+                <video
+                  src={video}
+                  autoPlay
+                  muted
+                  controls
+                  className="w-full h-auto opacity-0 transition-opacity duration-500 absolute top-0 left-0 group-hover:opacity-100"
+                ></video>
+              </figure> */}
+
               <div className="card-body">
-                <h2 className="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Listen</button>
-                  <button className="btn btn-primary">Listen</button>
+                <h2 className="card-title">{item.name}</h2>
+                <p>{item.description}</p>
+
+                <div className="card-actions justify-end flex-nowrap">
+                  <a
+                    href={item?.github || "#"}
+                    target="_blank"
+                    className="btn bg-black text-white border-black hover:bg-gray-900"
+                  >
+                    <SiGithub />
+                    Code
+                  </a>
+
+                  <a
+                    href={item?.live || "#"}
+                    target="_blank"
+                    className="btn btn-error "
+                  >
+                    <MdLiveTv className="size-5" />
+                    Live
+                  </a>
                 </div>
               </div>
             </motion.div>
